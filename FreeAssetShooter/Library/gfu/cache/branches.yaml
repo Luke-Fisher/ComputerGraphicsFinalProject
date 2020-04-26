@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2020-04-25T19:17:36.759-05:00
+  initializedAtString: 2020-04-25T19:17:36.750-05:00
+  localBranches:
+  - name: luke
+    tracking: origin/luke
+  - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/luke
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/Luke-Fisher/ComputerGraphicsFinalProject.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - luke
+    - master
+    values:
+    - name: luke
+      remote:
+        name: origin
+        url: https://github.com/Luke-Fisher/ComputerGraphicsFinalProject.git
+      trackingBranch: luke
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/Luke-Fisher/ComputerGraphicsFinalProject.git
+      trackingBranch: master
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - luke
+      - master
+    subKeyValues:
+    - Values:
+      - name: luke
+        remote:
+          name: origin
+          url: https://github.com/Luke-Fisher/ComputerGraphicsFinalProject.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/Luke-Fisher/ComputerGraphicsFinalProject.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/Luke-Fisher/ComputerGraphicsFinalProject.git
