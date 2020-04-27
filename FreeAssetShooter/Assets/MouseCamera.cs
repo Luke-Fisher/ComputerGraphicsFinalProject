@@ -7,6 +7,7 @@ public class MouseCamera : MonoBehaviour
     public float mouseSensitivity = 500f;
     public float rotation = 0f;
     public Transform playerBody;
+    public Transform firePosition;
 
     // Start is called before the first frame update
     void Start()
@@ -25,5 +26,7 @@ public class MouseCamera : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(rotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
+        //firePosition.position = playerBody.transform.position + transform.forward;
+        firePosition.localRotation = Quaternion.Euler(rotation, 0f, 0f);
     }
 }

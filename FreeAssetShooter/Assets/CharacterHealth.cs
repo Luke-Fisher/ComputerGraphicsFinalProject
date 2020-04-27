@@ -13,6 +13,7 @@ public class CharacterHealth : MonoBehaviour
     
     public void Damage(float damage)
     {
+        Debug.Log("Took damage: " + damage.ToString());
         health -= damage;
         if(health <= 0)
         {

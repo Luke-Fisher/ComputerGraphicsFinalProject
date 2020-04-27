@@ -7,6 +7,9 @@ public class PlayerShoot : MonoBehaviour
     public GameObject lazer;
     public Transform firePosition;
     public float speedMulitplier = 5f;
+    bool isShooting = false;
+    public float nextShotTimer = .2f;
+    public 
     // Start is called before the first frame update
     void Start()
     {
@@ -16,8 +19,19 @@ public class PlayerShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (isShooting)
         {
+            nextShotTimer -= Time.deltaTime;
+            if (nextShotTimer < 0)
+            {
+                isShooting = false;
+                nextShotTimer = .2f;
+            }
+        }
+
+        if (Input.GetMouseButton(0) && !isShooting)
+        {
+            isShooting = true;
             Fire();
         }
     }
@@ -25,5 +39,6 @@ public class PlayerShoot : MonoBehaviour
     void Fire()
     {
         GameObject lazerInstance = Instantiate(lazer, firePosition.position, firePosition.rotation);
+        //lazerInstance.transform.position = 
     }
 }
