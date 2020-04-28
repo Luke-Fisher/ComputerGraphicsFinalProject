@@ -13,9 +13,657 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-04-27T18:15:22.394-05:00
+  lastUpdatedAtString: 2020-04-27T19:16:57.034-05:00
   initializedAtString: 2020-04-27T14:05:10.534-05:00
   log:
+  - commitID: 77a4badc5da8473809e9dc58adf107e399cd9fd6
+    mergeA: 
+    mergeB: 
+    authorName: Luke
+    authorEmail: 5lukefisher5@gmail.com
+    commitEmail: 5lukefisher5@gmail.com
+    commitName: Luke
+    summary: Fixed Shooting, Health
+    description: 
+    timeString: 2020-04-27T18:23:26.000-05:00
+    commitTimeString: 2020-04-27T18:23:26.000-05:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Assets\CharacterHealth.cs
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Assets\CharacterHealth.cs
+      projectPath: Assets\CharacterHealth.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Assets\LaserController.cs
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Assets\LaserController.cs
+      projectPath: Assets\LaserController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Assets\Lazer.prefab
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Assets\Lazer.prefab
+      projectPath: Assets\Lazer.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Assets\MouseCamera.cs
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Assets\MouseCamera.cs
+      projectPath: Assets\MouseCamera.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Assets\PlayerShoot.cs
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Assets\PlayerShoot.cs
+      projectPath: Assets\PlayerShoot.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\ArtifactDB
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\01\01c4b5283f99d1925b22759017a98096
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\01\01c4b5283f99d1925b22759017a98096
+      projectPath: Library\Artifacts\01\01c4b5283f99d1925b22759017a98096
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\02\029db51da5dc150690d2ff565c3909b1
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\02\029db51da5dc150690d2ff565c3909b1
+      projectPath: Library\Artifacts\02\029db51da5dc150690d2ff565c3909b1
+      originalPath: FreeAssetShooter\Library\Artifacts\eb\eba68b3dcd11fbc3cbe04a6428aa1f05
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\03\03ae8d5ff9221f606e27e8318d51a924
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\03\03ae8d5ff9221f606e27e8318d51a924
+      projectPath: Library\Artifacts\03\03ae8d5ff9221f606e27e8318d51a924
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\05\05e06860bf995c1591f85308d600e541
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\05\05e06860bf995c1591f85308d600e541
+      projectPath: Library\Artifacts\05\05e06860bf995c1591f85308d600e541
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\07\07325fe6ac6e1b7f7c4c1f918820ccb2
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\07\07325fe6ac6e1b7f7c4c1f918820ccb2
+      projectPath: Library\Artifacts\07\07325fe6ac6e1b7f7c4c1f918820ccb2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\08\0822c3450be313b2640f645e344082f6
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\08\0822c3450be313b2640f645e344082f6
+      projectPath: Library\Artifacts\08\0822c3450be313b2640f645e344082f6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\0b\0b866e957f092cefab19a10fa1173503
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\0b\0b866e957f092cefab19a10fa1173503
+      projectPath: Library\Artifacts\0b\0b866e957f092cefab19a10fa1173503
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\17\170f5fbacb34881049e4cc8e4441bd34
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\17\170f5fbacb34881049e4cc8e4441bd34
+      projectPath: Library\Artifacts\17\170f5fbacb34881049e4cc8e4441bd34
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\1c\1c5eb21508bd1a605f287dedbf230099
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\1c\1c5eb21508bd1a605f287dedbf230099
+      projectPath: Library\Artifacts\1c\1c5eb21508bd1a605f287dedbf230099
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\20\209dd9232c8cdc24751fb8c3dbb5fa1b
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\20\209dd9232c8cdc24751fb8c3dbb5fa1b
+      projectPath: Library\Artifacts\20\209dd9232c8cdc24751fb8c3dbb5fa1b
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\27\278d19b25de409c53e227376c504d768
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\27\278d19b25de409c53e227376c504d768
+      projectPath: Library\Artifacts\27\278d19b25de409c53e227376c504d768
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\28\28e79f41b6765e083fa1d59e9ee44ca2
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\28\28e79f41b6765e083fa1d59e9ee44ca2
+      projectPath: Library\Artifacts\28\28e79f41b6765e083fa1d59e9ee44ca2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\2c\2c3dd6c63799952f21f865bc613adbe2
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\2c\2c3dd6c63799952f21f865bc613adbe2
+      projectPath: Library\Artifacts\2c\2c3dd6c63799952f21f865bc613adbe2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\2c\2c46f47c262d9cb4cd23f713e785b72f
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\2c\2c46f47c262d9cb4cd23f713e785b72f
+      projectPath: Library\Artifacts\2c\2c46f47c262d9cb4cd23f713e785b72f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\2f\2f6e06b6f8c72f279467f377817f6129
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\2f\2f6e06b6f8c72f279467f377817f6129
+      projectPath: Library\Artifacts\2f\2f6e06b6f8c72f279467f377817f6129
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\33\33ec752aa26c8ac2015ad0059019b0a9
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\33\33ec752aa26c8ac2015ad0059019b0a9
+      projectPath: Library\Artifacts\33\33ec752aa26c8ac2015ad0059019b0a9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\35\35e2e0ccb0683c9dc1873b9f1af89950
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\35\35e2e0ccb0683c9dc1873b9f1af89950
+      projectPath: Library\Artifacts\35\35e2e0ccb0683c9dc1873b9f1af89950
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\3b\3b52dc4271a1cd912cff05ed75d3980c
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\3b\3b52dc4271a1cd912cff05ed75d3980c
+      projectPath: Library\Artifacts\3b\3b52dc4271a1cd912cff05ed75d3980c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\3c\3cb1a7cd11cb021b0b78ee9a046896b9
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\3c\3cb1a7cd11cb021b0b78ee9a046896b9
+      projectPath: Library\Artifacts\3c\3cb1a7cd11cb021b0b78ee9a046896b9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\3e\3e6def91e25cefe14a0cb1505c7c0f25
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\3e\3e6def91e25cefe14a0cb1505c7c0f25
+      projectPath: Library\Artifacts\3e\3e6def91e25cefe14a0cb1505c7c0f25
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\47\47e6183a2b2dce3ec37469c94982ba91
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\47\47e6183a2b2dce3ec37469c94982ba91
+      projectPath: Library\Artifacts\47\47e6183a2b2dce3ec37469c94982ba91
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\49\499f131ced7ec267f39e59a2a56f54ab
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\49\499f131ced7ec267f39e59a2a56f54ab
+      projectPath: Library\Artifacts\49\499f131ced7ec267f39e59a2a56f54ab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\4a\4abb54b5320c6fd2f47a598d17db574b
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\4a\4abb54b5320c6fd2f47a598d17db574b
+      projectPath: Library\Artifacts\4a\4abb54b5320c6fd2f47a598d17db574b
+      originalPath: FreeAssetShooter\Library\Artifacts\76\766e43122a1d90c4f31eccea88721146
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\4c\4cc7dd921f15b0236774b9e8d3185b66
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\4c\4cc7dd921f15b0236774b9e8d3185b66
+      projectPath: Library\Artifacts\4c\4cc7dd921f15b0236774b9e8d3185b66
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\50\50c6f54b532db6866b844879398b30d8
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\50\50c6f54b532db6866b844879398b30d8
+      projectPath: Library\Artifacts\50\50c6f54b532db6866b844879398b30d8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\52\52272d289a865be9180f8d2889281ff0
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\52\52272d289a865be9180f8d2889281ff0
+      projectPath: Library\Artifacts\52\52272d289a865be9180f8d2889281ff0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\53\53549c1360695eba619334cc9a32964c
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\53\53549c1360695eba619334cc9a32964c
+      projectPath: Library\Artifacts\53\53549c1360695eba619334cc9a32964c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\5e\5e95c1c17d61beb52c41d07d3a36cdc6
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\5e\5e95c1c17d61beb52c41d07d3a36cdc6
+      projectPath: Library\Artifacts\5e\5e95c1c17d61beb52c41d07d3a36cdc6
+      originalPath: FreeAssetShooter\Library\Artifacts\7f\7f4409709fc25ea9821013b462cfcae3
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\61\614e74640f95875c80b09c57a8296a22
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\61\614e74640f95875c80b09c57a8296a22
+      projectPath: Library\Artifacts\61\614e74640f95875c80b09c57a8296a22
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\61\6198eaf528e0343a2003141f796bcf19
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\61\6198eaf528e0343a2003141f796bcf19
+      projectPath: Library\Artifacts\61\6198eaf528e0343a2003141f796bcf19
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\61\61c71c16115f323eb835f9c523e187d4
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\61\61c71c16115f323eb835f9c523e187d4
+      projectPath: Library\Artifacts\61\61c71c16115f323eb835f9c523e187d4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\61\61fc9c7dc01f1bda9ed55220880db426
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\61\61fc9c7dc01f1bda9ed55220880db426
+      projectPath: Library\Artifacts\61\61fc9c7dc01f1bda9ed55220880db426
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\62\62a0701ef750cde90818221136d15f70
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\62\62a0701ef750cde90818221136d15f70
+      projectPath: Library\Artifacts\62\62a0701ef750cde90818221136d15f70
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\65\6516d6a58494dcee4ea3bc494626ec4a
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\65\6516d6a58494dcee4ea3bc494626ec4a
+      projectPath: Library\Artifacts\65\6516d6a58494dcee4ea3bc494626ec4a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\65\65c5c0136d7a36c74a2ef004681dd2ec
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\65\65c5c0136d7a36c74a2ef004681dd2ec
+      projectPath: Library\Artifacts\65\65c5c0136d7a36c74a2ef004681dd2ec
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\66\663195ea1b7b05ddf0ae148db567a72e
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\66\663195ea1b7b05ddf0ae148db567a72e
+      projectPath: Library\Artifacts\66\663195ea1b7b05ddf0ae148db567a72e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\67\67112f0005843234aac608acb3de83a5
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\67\67112f0005843234aac608acb3de83a5
+      projectPath: Library\Artifacts\67\67112f0005843234aac608acb3de83a5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\67\67b7c59caee88d5cbe82625211780482
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\67\67b7c59caee88d5cbe82625211780482
+      projectPath: Library\Artifacts\67\67b7c59caee88d5cbe82625211780482
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\68\68b064d52887aed6bff3ecb77ae11320
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\68\68b064d52887aed6bff3ecb77ae11320
+      projectPath: Library\Artifacts\68\68b064d52887aed6bff3ecb77ae11320
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\6a\6a7e81b06fe22c9f6a016d7fc3d59de7
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\6a\6a7e81b06fe22c9f6a016d7fc3d59de7
+      projectPath: Library\Artifacts\6a\6a7e81b06fe22c9f6a016d7fc3d59de7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\7d\7d12f6a3cf627641d66e7909a9ffe77a
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\7d\7d12f6a3cf627641d66e7909a9ffe77a
+      projectPath: Library\Artifacts\7d\7d12f6a3cf627641d66e7909a9ffe77a
+      originalPath: FreeAssetShooter\Library\Artifacts\35\35b8721c34a7cef7cb1d652f459f040d
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\7e\7e01314ee09609c1dd62c82a66552aab
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\7e\7e01314ee09609c1dd62c82a66552aab
+      projectPath: Library\Artifacts\7e\7e01314ee09609c1dd62c82a66552aab
+      originalPath: FreeAssetShooter\Library\Artifacts\6f\6feee472480a09f4567e6e0dda6fe3c2
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\89\89b96f80fd0fe3d65eb54f747880aa78
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\89\89b96f80fd0fe3d65eb54f747880aa78
+      projectPath: Library\Artifacts\89\89b96f80fd0fe3d65eb54f747880aa78
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\8b\8b7090e7872f32bc1a7084a8584b9c24
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\8b\8b7090e7872f32bc1a7084a8584b9c24
+      projectPath: Library\Artifacts\8b\8b7090e7872f32bc1a7084a8584b9c24
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\8d\8dba87dc6f85e89c51ce9d4f5eb0ceaa
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\8d\8dba87dc6f85e89c51ce9d4f5eb0ceaa
+      projectPath: Library\Artifacts\8d\8dba87dc6f85e89c51ce9d4f5eb0ceaa
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\8d\8de928e2f15fe42a093887e91e4977d5
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\8d\8de928e2f15fe42a093887e91e4977d5
+      projectPath: Library\Artifacts\8d\8de928e2f15fe42a093887e91e4977d5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\9d\9d6dd04eea1bf959e5ecb177683f0bd4
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\9d\9d6dd04eea1bf959e5ecb177683f0bd4
+      projectPath: Library\Artifacts\9d\9d6dd04eea1bf959e5ecb177683f0bd4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\9e\9e44ebd752d8c508e7a9a6f18808463e
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\9e\9e44ebd752d8c508e7a9a6f18808463e
+      projectPath: Library\Artifacts\9e\9e44ebd752d8c508e7a9a6f18808463e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\9f\9fd690273df5415bf1874f0f16a123f6
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\9f\9fd690273df5415bf1874f0f16a123f6
+      projectPath: Library\Artifacts\9f\9fd690273df5415bf1874f0f16a123f6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\a3\a317ad31699c19e0348bc38c9126a676
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\a3\a317ad31699c19e0348bc38c9126a676
+      projectPath: Library\Artifacts\a3\a317ad31699c19e0348bc38c9126a676
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\a5\a5909432c22c090bcdef70d06b5c988a
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\a5\a5909432c22c090bcdef70d06b5c988a
+      projectPath: Library\Artifacts\a5\a5909432c22c090bcdef70d06b5c988a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\a7\a78a5d84f91e9bdb22dc07ea8b25bc94
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\a7\a78a5d84f91e9bdb22dc07ea8b25bc94
+      projectPath: Library\Artifacts\a7\a78a5d84f91e9bdb22dc07ea8b25bc94
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\ab\abeaadd5472845dd3a964abbf7addbdb
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\ab\abeaadd5472845dd3a964abbf7addbdb
+      projectPath: Library\Artifacts\ab\abeaadd5472845dd3a964abbf7addbdb
+      originalPath: FreeAssetShooter\Library\Artifacts\3d\3d10547bf7bbb66e70400dd962e7f8b1
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\b1\b1a2601269821e11ef9743d13818537e
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\b1\b1a2601269821e11ef9743d13818537e
+      projectPath: Library\Artifacts\b1\b1a2601269821e11ef9743d13818537e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\b3\b31780252f25e6ff998f04c93b1bc767
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\b3\b31780252f25e6ff998f04c93b1bc767
+      projectPath: Library\Artifacts\b3\b31780252f25e6ff998f04c93b1bc767
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\b6\b6241b566a5787c93508aec90a34aa1b
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\b6\b6241b566a5787c93508aec90a34aa1b
+      projectPath: Library\Artifacts\b6\b6241b566a5787c93508aec90a34aa1b
+      originalPath: FreeAssetShooter\Library\Artifacts\53\53ba58430b88ded8c203298dce230ee3
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\b6\b68f7ecbe2665df19c972c1d2a99bd9b
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\b6\b68f7ecbe2665df19c972c1d2a99bd9b
+      projectPath: Library\Artifacts\b6\b68f7ecbe2665df19c972c1d2a99bd9b
+      originalPath: FreeAssetShooter\Library\Artifacts\7f\7ff9534b2c2e00957cc18a400804038d
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\b7\b72edb4d6f695546ed4952cb42deace6
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\b7\b72edb4d6f695546ed4952cb42deace6
+      projectPath: Library\Artifacts\b7\b72edb4d6f695546ed4952cb42deace6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\b8\b8f3e85d7fa901a753f0134536b8dba1
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\b8\b8f3e85d7fa901a753f0134536b8dba1
+      projectPath: Library\Artifacts\b8\b8f3e85d7fa901a753f0134536b8dba1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\be\bec9e96f5741152c1ed4797fb1d19a1b
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\be\bec9e96f5741152c1ed4797fb1d19a1b
+      projectPath: Library\Artifacts\be\bec9e96f5741152c1ed4797fb1d19a1b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\c1\c19f5f2c53f1851273a8af30fc77dd8b
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\c1\c19f5f2c53f1851273a8af30fc77dd8b
+      projectPath: Library\Artifacts\c1\c19f5f2c53f1851273a8af30fc77dd8b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\c1\c1fd06d03301a8dc52e8b146c1bb6461
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\c1\c1fd06d03301a8dc52e8b146c1bb6461
+      projectPath: Library\Artifacts\c1\c1fd06d03301a8dc52e8b146c1bb6461
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\c1\c1fd6cf55cb3f2f55406c468aec139fd
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\c1\c1fd6cf55cb3f2f55406c468aec139fd
+      projectPath: Library\Artifacts\c1\c1fd6cf55cb3f2f55406c468aec139fd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\c7\c71fd8be2990af9cf127789b8603fac2
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\c7\c71fd8be2990af9cf127789b8603fac2
+      projectPath: Library\Artifacts\c7\c71fd8be2990af9cf127789b8603fac2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\c9\c92eff652c4cc0d33ad21c925ff47c05
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\c9\c92eff652c4cc0d33ad21c925ff47c05
+      projectPath: Library\Artifacts\c9\c92eff652c4cc0d33ad21c925ff47c05
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\ca\cacb93facbf6c66685748bbb99d4cd81
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\ca\cacb93facbf6c66685748bbb99d4cd81
+      projectPath: Library\Artifacts\ca\cacb93facbf6c66685748bbb99d4cd81
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\ca\cafca7af68aae2e54dde4765b9a55a49
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\ca\cafca7af68aae2e54dde4765b9a55a49
+      projectPath: Library\Artifacts\ca\cafca7af68aae2e54dde4765b9a55a49
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\ce\cee91662ae78868044fcb59c640ffdf8
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\ce\cee91662ae78868044fcb59c640ffdf8
+      projectPath: Library\Artifacts\ce\cee91662ae78868044fcb59c640ffdf8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\d4\d49c8f25450b0182aff41ac64f20c101
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\d4\d49c8f25450b0182aff41ac64f20c101
+      projectPath: Library\Artifacts\d4\d49c8f25450b0182aff41ac64f20c101
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\d4\d49d8e8d87d82b803bc4c1412963e29f
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\d4\d49d8e8d87d82b803bc4c1412963e29f
+      projectPath: Library\Artifacts\d4\d49d8e8d87d82b803bc4c1412963e29f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\da\da9f8106129e81c0c4cb28debb8ed3bf
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\da\da9f8106129e81c0c4cb28debb8ed3bf
+      projectPath: Library\Artifacts\da\da9f8106129e81c0c4cb28debb8ed3bf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\de\de00a4c182c0f38dbbc93dff57400b27
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\de\de00a4c182c0f38dbbc93dff57400b27
+      projectPath: Library\Artifacts\de\de00a4c182c0f38dbbc93dff57400b27
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\e0\e0007aec0e6a485bd457c0f0a3207392
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\e0\e0007aec0e6a485bd457c0f0a3207392
+      projectPath: Library\Artifacts\e0\e0007aec0e6a485bd457c0f0a3207392
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\e5\e5021a7838e64c3c18a04db2f614310f
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\e5\e5021a7838e64c3c18a04db2f614310f
+      projectPath: Library\Artifacts\e5\e5021a7838e64c3c18a04db2f614310f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\e6\e65701f1b165c051b9ee12b31cc7f04c
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\e6\e65701f1b165c051b9ee12b31cc7f04c
+      projectPath: Library\Artifacts\e6\e65701f1b165c051b9ee12b31cc7f04c
+      originalPath: FreeAssetShooter\Library\Artifacts\a2\a278ab1e4736fa307ef6c35a5c701c7b
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\e7\e7daaee34148ee60b3eb40c4ea8077da
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\e7\e7daaee34148ee60b3eb40c4ea8077da
+      projectPath: Library\Artifacts\e7\e7daaee34148ee60b3eb40c4ea8077da
+      originalPath: FreeAssetShooter\Library\Artifacts\d8\d8daa836800030d163db86e06a83eba9
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\ea\eae5adb0add675c844324e2149992fed
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\ea\eae5adb0add675c844324e2149992fed
+      projectPath: Library\Artifacts\ea\eae5adb0add675c844324e2149992fed
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\ed\ed1cc37b0555d88de3f08a5c509166b6
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\ed\ed1cc37b0555d88de3f08a5c509166b6
+      projectPath: Library\Artifacts\ed\ed1cc37b0555d88de3f08a5c509166b6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\ef\ef018a0507e36197783b1513490bb756
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\ef\ef018a0507e36197783b1513490bb756
+      projectPath: Library\Artifacts\ef\ef018a0507e36197783b1513490bb756
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\f1\f1cbf53ee8511176483cb61a927219e1
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\f1\f1cbf53ee8511176483cb61a927219e1
+      projectPath: Library\Artifacts\f1\f1cbf53ee8511176483cb61a927219e1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\fb\fb7b075c8ca1b12b11dc2a2c3ef2f0ba
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\fb\fb7b075c8ca1b12b11dc2a2c3ef2f0ba
+      projectPath: Library\Artifacts\fb\fb7b075c8ca1b12b11dc2a2c3ef2f0ba
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\Artifacts\fd\fdd6cee43e8bbcf54b842ee796a3f167
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\Artifacts\fd\fdd6cee43e8bbcf54b842ee796a3f167
+      projectPath: Library\Artifacts\fd\fdd6cee43e8bbcf54b842ee796a3f167
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\EditorInstance.json
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\SourceAssetDB
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\StateCache\Hierarchy\46b7a0-mainStage.json
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\StateCache\Hierarchy\46b7a0-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\46b7a0-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\StateCache\SceneView\d69a67-mainStage.json
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\StateCache\SceneView\d69a67-mainStage.json
+      projectPath: Library\StateCache\SceneView\d69a67-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: FreeAssetShooter\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\obj\Debug\NavMeshComponents.csprojAssemblyReference.cache
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\obj\Debug\NavMeshComponents.csprojAssemblyReference.cache
+      projectPath: obj\Debug\NavMeshComponents.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: FreeAssetShooter\obj\Debug\NavMeshComponentsEditor.csprojAssemblyReference.cache
+      fullPath: C:\Users\Luke\Documents\GitKraken\ComputerGraphicsFinalProject\FreeAssetShooter\obj\Debug\NavMeshComponentsEditor.csprojAssemblyReference.cache
+      projectPath: obj\Debug\NavMeshComponentsEditor.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: 0238f2b6211a19185cde4ff4a4f0ba36ec826e90
     mergeA: 
     mergeB: 

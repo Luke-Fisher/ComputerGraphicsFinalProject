@@ -4,31 +4,35 @@ using UnityEngine;
 
 public class LaserController : MonoBehaviour
 {
-    public float maxLifetime = 3f;
+    public float maxLifetime = 1.75f;
     public float damage = 1f;
     public float speed = 25f;
-    Vector3 direction;
-    Vector3 rotation;
+    bool hasHit = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Made a lazer");
         Destroy(gameObject, maxLifetime);
     }
 
     void Update()
     {
         transform.position += transform.forward * Time.deltaTime * speed;
+        hasHit = false;
     }
 
     private void OnTriggerEnter(Collider target)
     {
-        Debug.Log("Lazer collision");
+        if (hasHit)
+        {
+            return;
+        }
+        hasHit = true;
+
         CharacterHealth targetHealth = target.GetComponent<CharacterHealth>();
 
         if (!targetHealth)
         {
-            Debug.Log("No health!");
             return;
         }
 

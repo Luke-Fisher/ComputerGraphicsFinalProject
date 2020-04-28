@@ -8,7 +8,7 @@ public class PlayerShoot : MonoBehaviour
     public Transform firePosition;
     public float speedMulitplier = 5f;
     bool isShooting = false;
-    public float nextShotTimer = .2f;
+    public float nextShotTimer = .3f;
     public 
     // Start is called before the first frame update
     void Start()
@@ -25,13 +25,14 @@ public class PlayerShoot : MonoBehaviour
             if (nextShotTimer < 0)
             {
                 isShooting = false;
-                nextShotTimer = .2f;
+                nextShotTimer = .3f;
             }
         }
 
-        if (Input.GetMouseButton(0) && !isShooting)
+        if (Input.GetButtonDown("Fire1") && !isShooting)
         {
             isShooting = true;
+            Debug.Log("IMMA FIRE" + Time.frameCount);
             Fire();
         }
     }
@@ -39,6 +40,5 @@ public class PlayerShoot : MonoBehaviour
     void Fire()
     {
         GameObject lazerInstance = Instantiate(lazer, firePosition.position, firePosition.rotation);
-        //lazerInstance.transform.position = 
     }
 }

@@ -26,7 +26,6 @@ public class MouseCamera : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(rotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
-        //firePosition.position = playerBody.transform.position + transform.forward;
         firePosition.localRotation = Quaternion.Euler(rotation, 0f, 0f);
     }
 }
