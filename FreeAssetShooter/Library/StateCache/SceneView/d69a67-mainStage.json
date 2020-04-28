@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":2.2069225311279299,"y":13.743133544921875,"z":-16.900569915771486},"rotation":{"x":0.026171907782554628,"y":0.936046302318573,"z":-0.061463166028261188,"w":0.34841975569725039},"size":8.77462100982666,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-6.224750995635986,"y":15.05417251586914,"z":-2.834423303604126},"rotation":{"x":-0.006996652577072382,"y":-0.13203194737434388,"z":-0.0019297210965305567,"w":0.9915119409561157},"size":0.12914419174194337,"orthographic":false}
+>>>>>>> luke
