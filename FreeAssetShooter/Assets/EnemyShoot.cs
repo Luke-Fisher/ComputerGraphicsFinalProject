@@ -20,10 +20,10 @@ public class EnemyShoot : MonoBehaviour
     void Update()
     {
         distanceToPlayer = Vector3.Distance(transform.position, player.position);
-        Debug.Log(distanceToPlayer.ToString());
+        //Debug.Log(distanceToPlayer.ToString());
         if (distanceToPlayer < sightRange)
         {
-            Debug.Log("ATTACKING");
+            //Debug.Log("ATTACKING");
             transform.LookAt(player);
             Attack();
         }
