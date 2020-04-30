@@ -1,1 +1,2 @@
+FreeAssetShooter/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
 FreeAssetShooter/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
