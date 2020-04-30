@@ -24,7 +24,7 @@ public class EnemyShoot : MonoBehaviour
         if (distanceToPlayer < sightRange)
         {
             //Debug.Log("ATTACKING");
-            transform.LookAt(player);
+            transform.rotation = Quaternion.LookRotation((player.transform.position - transform.position).normalized);
             Attack();
         }
     }
